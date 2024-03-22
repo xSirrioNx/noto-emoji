@@ -1,0 +1,24 @@
+family = "Iva Custom"
+output_file = "iva-custom.ttf"
+color_format = "glyf_colr_1"
+clipbox_quantization = 32
+
+[axis.wght]
+name = "Weight"
+default = 400
+
+[master.regular]
+style_name = "Regular"
+srcs = [
+    "../svg/emoji_u1f64f.svg",
+    "../svg/emoji_u1f44e.svg",
+    "../svg/emoji_u1f44c.svg",
+    "../svg/emoji_u1f622.svg",
+    "../svg/emoji_u2764.svg",
+    "../svg/emoji_u1f525.svg",
+    "../svg/emoji_u1f60a.svg",
+    "../svg/emoji_u1f44d.svg",
+]
+
+[master.regular.position]
+wght = 400

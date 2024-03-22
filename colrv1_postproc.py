@@ -23,8 +23,9 @@ from colrv1_add_soft_light_to_flags import add_soft_light_to_flags
 
 _CBDT_FILE = Path("fonts/NotoColorEmoji.ttf")
 _COLR_FILES = {
-    Path("fonts/Noto-COLRv1-noflags.ttf"),
-    Path("fonts/Noto-COLRv1.ttf"),
+    Path("fonts/iva-custom.ttf"),
+    # Path("fonts/Noto-COLRv1-noflags.ttf"),
+    # Path("fonts/Noto-COLRv1.ttf"),
 }
 
 
@@ -331,7 +332,7 @@ def main(_):
 
         _add_vertical_layout_tables(cbdt_font, colr_font)
 
-        _add_fallback_subs_for_unknown_flags(colr_font)
+        #_add_fallback_subs_for_unknown_flags(colr_font)
 
         _set_no_font_embedding_restrictions(colr_font)
 
