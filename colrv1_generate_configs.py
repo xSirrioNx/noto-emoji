@@ -18,7 +18,7 @@ from nanoemoji.util import rel
 from pathlib import Path
 
 
-_NOTO_FAMILY_NAME = "Noto Color Emoji"
+_NOTO_FAMILY_NAME = "Iva Reactions"
 _NOTO_SVG_DIR = Path("svg")
 _REGIONAL_INDICATORS = {
     Path(_NOTO_SVG_DIR / f"emoji_u{i:x}.svg") for i in range(0x1F1E6, 0x1F1FF + 1)
